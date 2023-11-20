@@ -1,3 +1,31 @@
-body {
-    background-color: red;
+* {
+  background-color: darkgray;
+}
+
+header {
+  text-align: center;
+  margin: 30px;
+}
+
+#title {
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#main-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-title {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.content-box {
+  border: 5px dashed black;
+  margin: 20px;
 }
